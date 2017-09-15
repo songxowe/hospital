@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+#body {
+	background: url(../images/loginbg.jpg);
+	background-size: cover
+}
+
+#ft {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	color: #10486b;
+	text-align: center;
+	z-index: 2;
+}
+
+/* 设置图片与页面上方不留空白 */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.body {
+	position: relative;
+	background: url(../images/loginbg.jpg) no-repeat center center;
+	background-size: cover;
+}
+/* 设置背景图片布满整个页面  */
+.background {
+	width: 100%;
+	height: 30%;
+}
+/* 设置主体样式 */
+.zhuti {
+	width: 584px;
+	height: 380px;
+	border: 0px solid red;
+	position: absolute;
+	left: 480px;
+	top: 100px;
+	background: url('../images/zhuti.png') repeat-x;
+}
+/* 设置标题样式 */
+.title {
+	width: 537px;
+	height: 56px;
+	border: 0px solid black;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+/* 设置标题字体样式 */
+.title span {
+	width: 500px;
+	height: 56px;
+	text-align: center;
+	border: 0px solid red;
+	font-size: 30px;
+	color: white;
+	margin: 0px auto;
+	font-family: '楷体', '微软雅黑';
+	line-height: 56px;
+	margin-left: 20px;
+	text-shadow: 1px 1px black; /* 字体描边 */
+}
+
+.show {
+	width: 320px;
+	height: 155px;
+	border: 0px solid black;
+	margin-left: 190px;
+	margin-top: 30px;
+}
+
+.shows {
+	heigth: 38.5x;
+	width: 100px;
+	margin: 0px auto;
+}
+
+.img {
+	margin-left: 30px;
+}
+
+tr {
+	height: 35px;
+	algin: center;
+}
+
+.show tr td {
+	border: 0px solid red;
+	margin: center;
+}
+
+.shuru {
+	border-radius: 4px;
+}
+
+#yzm {
+	border: 0px solid black;
+	width: 150px;
+	height: 23px;
+	float: right;
+	line-height: 23px;
+}
+
+#statis {
+	margin-left: 70px;
+}
+input{padding-left:2px;}

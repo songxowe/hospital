@@ -1,0 +1,22 @@
+html {
+	*overflow: auto;
+}
+
+body {
+	position: relative;
+	background: url(../images/loginbg.jpg) no-repeat center center;
+}
+
+#bd {
+	
+}
+
+#ft {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	color: #10486b;
+	text-align: center;
+	z-index: 2;
+}
